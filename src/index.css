@@ -12,3 +12,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.sub {
+  vertical-align: sub;
+}
+
+#colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+  color: white;
+}

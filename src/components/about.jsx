@@ -11,10 +11,10 @@ export default class About extends Component {
                 <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                 <div className="col-md-12">
                     <div className="about-desc">
-                    <span className="heading-meta">About Us</span>
+                    <span className="heading-meta">About Me</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p>I am a computer grad student from DAIICT-Gandhinagar with ICT as my major.I love exploring new technologies and often amazed by the progress we as a human species have mad so far in the recent years (apart from the headphone-jack part!!)</p>
-                    <p>I have started reflecting my ideas and thougths through the medium of words recently so spelling and grammer mistaks are very often.You can write me back if you spot any and don't want to live anymore :P </p>
+                    <p>Experienced Cloud Native Java Developer. Skilled in Java, Python, Angular, React, and Data Science with Machine learning. Strong engineering professional with a Master of Science (M.S.) focused in Computer Science from Chicago State University. I love exploring new technologies and often amazed by the progress we as a human species have mad so far in the recent years (apart from the headphone-jack part!!)</p>
+                    {/* <p>I have started reflecting my ideas and thougths through the medium of words recently so spelling and grammer mistaks are very often.You can write me back if you spot any and don't want to live anymore :P </p> */}
                     </div>
                 </div>
                 </div>
@@ -38,7 +38,23 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Web Development </h3>
-                    <p>I have experience building websites and chrome extentions using JavaScript,React,HTML,CSS</p>
+                    <p>
+                    <span className="pill">JavaScript</span>
+                    <span className="pill">React</span>
+                    <span className="pill">Angular</span>
+                    <span className="pill">Java</span>
+                    <span className="pill">Golang</span>
+                    <span className="pill">SpringBoot Framework</span>
+                    <span className="pill">GCP</span>
+                    <span className="pill">AWS</span>
+                    <span className="pill">PCF</span>
+                    <span className="pill">SQL</span>
+                    <span className="pill">NoSQL</span>
+                    <span className="pill">Jenkins</span>
+                    <span className="pill">Docker</span>
+                    <span className="pill">Kubernetes</span>
+                    <span className="pill">GIT version control</span>
+                    </p>
                 </div>
                 </div>
             </div>
@@ -48,8 +64,10 @@ export default class About extends Component {
                     <i className="icon-phone3" />
                 </span>
                 <div className="desc">
-                    <h3>Data Structures & Algorithms</h3>
-                    <p>As coming from the CS background, I have good grasp over fundamental concepts of DSA</p>
+                    <h3>Mobile Development</h3>
+                    <span className="pill">Android with Java and Kotlin</span>
+                    <span className="pill">iOS with Swift</span>
+                    <span className="pill">Flutter Framework</span>
                 </div>
                 </div>
             </div>
@@ -59,8 +77,14 @@ export default class About extends Component {
                     <i className="icon-data" />
                 </span>
                 <div className="desc">
-                    <h3>Dev Ops</h3>
-                    <p>I am pursuing my internship with DevOps team at Juniper and working with tools like Jenkins, Docker, K8s</p>
+                    <h3>Data Science</h3>
+                    <span className="pill">Numpy</span>
+                    <span className="pill">Pandas</span>
+                    <span className="pill">Scikit-learn</span>
+                    <span className="pill">Matplotlib</span>
+                    <span className="pill">Seaborn</span>
+                    <span className="pill">Tensorflow</span>
+                    <span className="pill">Keras</span>
                 </div>
                 </div>
             </div>
